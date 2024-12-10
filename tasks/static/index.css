@@ -7,11 +7,25 @@
 .container{
   display: flex;
   flex-direction: column;
+  gap: 30px;
   width: 100%;
   min-height: 100vh;
   background-color: aquamarine;
   align-items: center;
   justify-content: center;
+}
+
+
+form button{
+  padding: 18px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+input{
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 5px;
 }
 
 table{
@@ -26,18 +40,25 @@ tbody{
   font-weight: 500;
 }
 
-.delete-btn{
-  padding: 10px;
-  border-radius: 10px;
-  background-color: red;
-  color: white;
-  cursor: pointer;
+tbody td{
+  padding: 4px 10px;
 }
 
+
+
+.delete-btn,
 .finished-btn{
   padding: 10px;
   border-radius: 10px;
-  background-color: rgb(21, 124, 0);
   color: white;
   cursor: pointer;
+  border: 1px solid black;
+}
+
+.delete-btn{
+  background-color: red;
+}
+
+.finished-btn{
+  background-color: rgb(21, 124, 0);
 }
