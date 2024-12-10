@@ -13,7 +13,7 @@
 
 ```
 git clone https://github.com/shivansh-mangla/Django-Todo-App.git
-cd django-todo-app
+cd Django-Todo-App
 ```
 
 2) Run Migrations
