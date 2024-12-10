@@ -31,6 +31,17 @@
         {% for i in tasks %}
           <tr>
             <td>{{i.taskName}}</td>
+            {% if i.completed == True %}
+              <td>completed</td>
+            {% else %}
+              <td>Not yet completed</td>
+            {% endif %}
+            <td>
+              <button class="delete-btn">Delete</button>
+            </td>
+            <td>
+              <button class="finished-btn">Finished</button>
+            </td>
           </tr>
         {% endfor %}
         {% endif %}

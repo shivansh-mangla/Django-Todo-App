@@ -16,3 +16,10 @@ def home(request):
     return render(request, 'index.html', {'tasks': tasks})
 
   return render(request, 'index.html', {})
+
+
+def deleteTask(request):
+  pass
+
+def updateTask(request):
+  pass
