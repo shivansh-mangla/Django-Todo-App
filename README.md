@@ -26,3 +26,7 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+## Screenshots for the App-
+<img src="https://i.ibb.co/Y31g0Nk/image.png" >
+
