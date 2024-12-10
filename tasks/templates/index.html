@@ -37,10 +37,10 @@
               <td>Not yet completed</td>
             {% endif %}
             <td>
-              <button class="delete-btn">Delete</button>
+              <a href="{% url 'delete_task' i.id %}"><button class="delete-btn">Delete</button></a>
             </td>
             <td>
-              <button class="finished-btn">Finished</button>
+              <a href="{% url 'update_task' i.id %}"><button class="finished-btn">Finished</button></a>
             </td>
           </tr>
         {% endfor %}
